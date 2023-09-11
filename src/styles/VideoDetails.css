@@ -1,0 +1,14 @@
+.video-info{
+    background-color: black;
+    padding: 15px 0 0 5px;
+}
+
+.related-videos{
+    position: relative;
+    top: -55px;
+    left: 10px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 450px;
+}

@@ -1,0 +1,102 @@
+.Feed{
+    display: flex;
+    flex: 2;
+    color: white;
+}
+
+.sidebar-container{
+    width: 19%;
+    /* height: 88vh; */
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    border-right: 1px solid grey;
+}
+
+.SideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid blue; */
+
+    width: 100%;
+    height: 100%;
+    /* overflow-y: scroll; */
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+}
+
+.sidebar-item:hover{
+    background-color: red;
+}
+
+.sidebar-item:hover .icon{
+    color : white;
+}
+
+.icon{
+    margin-left: 25px;
+    color: red;
+}
+
+.category-name{
+    margin-left: 10px;
+}
+
+/* ////////////////////video /////////////////////////////////////// */
+
+.video-container{
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+}
+
+.Videos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+
+}
+.video-card{
+    color: white;
+    width: 25vw;
+    margin: 10px;
+}
+
+.video-card a{
+    color: white;
+}
+
+.video-card img{
+    width: 100%;
+    /* height: 280px; */
+    margin: 0;
+}
+
+.video-info{
+    background-color: #1E1E1E;
+    padding: 5px;
+    height: 106px;
+}
+
+.video-info span{
+    cursor: pointer;
+}
+
+.video-info p{
+    cursor: pointer;
+}

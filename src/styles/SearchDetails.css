@@ -1,0 +1,14 @@
+/* *{
+    overflow-x: hidden;
+} */
+h3{
+    margin-left: 93px;
+    font-weight: bolder;
+}
+
+.search-content{
+    width: 95%;
+    margin: 10px auto;
+    margin-left: 50px;
+    overflow-x: hidden;
+}
